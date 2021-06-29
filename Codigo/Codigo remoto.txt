@@ -1,0 +1,66 @@
+Desktop@DESKTOP-0H5RS5C MINGW64 ~
+$ mkdir plataforma-web
+mkdir: cannot create directory ‘plataforma-web’: File exists
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~
+$ cd plataforma-web/
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Desktop/plataforma-web/.git/
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$ mkdir code
+mkdir: cannot create directory ‘code’: File exists
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$ mkdir class
+mkdir: cannot create directory ‘class’: File exists
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$ git add .
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$ git commit -m "Agregar directorios para el repositorio"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$ git remote add origin https://github.com/jhonny300/Plataforma-web.git
+error: remote origin already exists.
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$ git remote
+origin
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$ git remote -v
+origin  https://github.com/jhonny300/Plataforma-web.git (fetch)
+origin  https://github.com/jhonny300/Plataforma-web.git (push)
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$ git pull origin master
+fatal: couldn't find remote ref master
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$ git pull origin master --allow-unrelated-histories
+fatal: couldn't find remote ref master
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/jhonny300/Plataforma-web.git'
+
+Desktop@DESKTOP-0H5RS5C MINGW64 ~/plataforma-web (master)
+$
